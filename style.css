@@ -104,3 +104,32 @@ p {
 h2.mb-3 {
   text-align: left;
 }
+@media (max-width: 770px) {
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center !important;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  img,
+  svg {
+    vertical-align: middle;
+  }
+}
+@media (max-width: 770px) {
+  .primary-link,
+  .about-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+.mt-5 {
+  margin-top: 3rem !important;
+}
